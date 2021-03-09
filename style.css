@@ -24,6 +24,11 @@ body {
   color: #000;
 }
 
+.navbar h3:hover {
+  transform: scale(1.2);
+
+}
+
 .main-title {
   margin-top: 0%;
 }
@@ -53,6 +58,18 @@ body {
   margin-top: 100px;
   border: solid 3px;
   width: 100px;
+}
+
+.main-container button:focus {
+  border-color: #ffe500;
+  transform: rotate(20deg);
+  transition: transform 0.5s linear;
+  
+
+}
+
+.main-container button:hover{
+background-color:#ffe500;
 }
 
 /* social media links */
