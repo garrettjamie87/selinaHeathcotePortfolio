@@ -27,6 +27,7 @@ body {
   text-align: center;
   background-color: #fff;
   padding-top: 300px;
+  position: relative;
 }
 
 /* welcome text and button */
@@ -51,7 +52,31 @@ body {
 /* social media links */
 
 .social-media-buttons{
-  margin-top: 100px;;
+  margin-top: 100px;
+  font-size: 20px;
 }
 
-/*  */
+/* hr */
+
+hr{
+  margin-top: 100px;
+  width: 50%
+}
+
+/* project one */
+
+.project-one h2 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.project-one li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.project-one .image-ny{
+  width: 100%;
+  margin-top: 50px;
+  padding: 5px;
+}
