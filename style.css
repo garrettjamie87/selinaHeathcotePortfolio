@@ -8,8 +8,10 @@ body {
   height: 100vh;
   padding: 40px;
   background-color: #ffe500;
+  letter-spacing: 1px;
 }
 
+/* navbar */
 .navbar {
   display: flex;
   flex-direction: row;
@@ -27,6 +29,24 @@ body {
   padding-top: 300px;
 }
 
+/* welcome text and button */
 .main-container .welcome-text {
   font-size: 20px;
 }
+
+.main-container a {
+  text-decoration: none;
+  color: #000
+}
+
+.main-container button {
+  background-color: #fff;
+  padding:20px;
+  font-family: inherit;
+  margin-top: 50px;
+  border: solid 3px;
+  width: 100px;
+}
+
+/* social media links */
+
