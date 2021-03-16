@@ -12,22 +12,32 @@ body {
 }
 
 /* navbar */
-.navbar {
+.navbar .main-title {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  margin: 0;
+  align-content: center;
+  text-align: center;
 }
 
-.navbar a {
+.navbar .sub-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* .navbar a {
   text-decoration: none;
   color: #000;
-}
+} */
 
-.navbar h3:hover {
+/* .navbar h3:hover {
   transform: scale(1.2);
 
-}
+} */
 
 .main-title {
   margin-top: 0%;
