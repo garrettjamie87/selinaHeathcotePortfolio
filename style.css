@@ -101,6 +101,10 @@ font-size: 15px;
 
 .case-study-video-credits{
   color: gray;
+  font-size: 10px;
+/* display: flex;
+justify-content: center; */
+padding-bottom: 10px;
 }
 
 
