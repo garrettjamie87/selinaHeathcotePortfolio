@@ -74,22 +74,21 @@ hr {
 
 /* project one */
 
-.project-one h2 {
+.project h2 {
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
-.project-one li {
+.project h3 {
+font-size: 15px;
+}
+
+.project span {
   list-style-type: none;
   text-align: center;
 }
 
-.project-one .image {
-  width: 100%;
-  height: 50%;
-  margin-top: 50px;
-  padding: 5px;
-}
+
 
 /* social media links */
 
