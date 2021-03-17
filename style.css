@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -22,26 +22,20 @@ body {
 }
 
 .navbar .sub-title {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   text-align: center;
   color: white;
-}
-
-.main-title {
-  margin-top: 0;
 }
 
 /* main-container */
 .main-container {
   text-align: center;
   background-color: #fff;
-  position: relative;
 }
 
 .main-container .gif {
   text-align: center;
   width: 100%;
-  margin-top: 0;
 }
 /* welcome text */
 .main-container .welcome-text {
@@ -62,7 +56,6 @@ body {
 }
 
 /* hr */
-
 hr {
   margin-top: 40px;
   height: 80px;
@@ -73,9 +66,8 @@ hr {
 }
 
 /* project */
-
 .project h2 {
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 40px;
 }
 
@@ -84,7 +76,6 @@ font-size: 15px;
 }
 
 .project span {
-  list-style-type: none;
   text-align: center;
   font-size: 10px;
 }
@@ -98,9 +89,16 @@ font-size: 15px;
 }
 
 .case-study-video video {
-  height: 50vh;
+  height: 100vh;
+  width: 100%;
+  margin-top: 0;
+  background-color: white;
+  outline: black;
 }
 
+.case-study-video-credits{
+  color: gray;
+}
 
 .boards img {
   margin-top: 20px;
