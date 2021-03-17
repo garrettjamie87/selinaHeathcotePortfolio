@@ -72,7 +72,7 @@ hr {
   border: 0;
 }
 
-/* project one */
+/* project */
 
 .project h2 {
   font-size: 20px;
@@ -88,7 +88,10 @@ font-size: 15px;
   text-align: center;
 }
 
-
+.case-study-video {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 /* social media links */
 
