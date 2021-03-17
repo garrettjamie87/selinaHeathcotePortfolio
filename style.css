@@ -86,17 +86,21 @@ font-size: 15px;
 .project span {
   list-style-type: none;
   text-align: center;
+  font-size: 10px;
 }
 
 .case-study-video {
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 100%;
+  background-color: black;
+ 
 }
 
-.case-study-video iframe {
-  width: 100%;
+.case-study-video video {
   height: 50vh;
 }
+
 
 .boards img {
   margin-top: 20px;
