@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 * {
   box-sizing: border-box;
 }
 body {
-  font-family: "Kosugi Maru", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   height: 100vh;
   padding: 40px;
   background-color: #010101;
@@ -43,7 +43,7 @@ body {
   width: 100%;
   margin-top: 0;
 }
-/* welcome text and button */
+/* welcome text */
 .main-container .welcome-text {
   margin-top: 30px;
   font-size: 20px;
@@ -65,7 +65,11 @@ body {
 
 hr {
   margin-top: 40px;
-  width: 50%;
+  height: 80px;
+  background-color: #000;
+  width: 100%;
+  outline: #000;
+  border: 0;
 }
 
 /* project one */
