@@ -93,6 +93,11 @@ font-size: 15px;
   margin-bottom: 30px;
 }
 
+.boards img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
 /* social media links */
 
 .social-media-buttons {
