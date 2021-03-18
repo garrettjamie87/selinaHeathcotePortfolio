@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   height: 100vh;
   padding: 40px;
   background-color: #010101;
@@ -63,7 +63,7 @@ hr {
   width: 100%;
   outline: #000;
   border: 0;
-  margin-top: 0;;
+  margin-top: 0;
 }
 
 /* project */
@@ -74,10 +74,11 @@ hr {
 }
 
 .project h3 {
-font-size: 15px;
+  font-size: 15px;
 }
 
-.client-info, span {
+.client-info,
+span {
   text-align: center;
   font-size: 10px;
   margin-bottom: 10px;
@@ -88,7 +89,6 @@ font-size: 15px;
   margin-bottom: 30px;
   width: 100%;
   background-color: black;
- 
 }
 
 .case-study-video video {
@@ -99,22 +99,59 @@ font-size: 15px;
   background-color: white;
 }
 
-.case-study-video-credits{
+.case-study-video-credits {
   color: gray;
   font-size: 10px;
-/* display: flex;
-justify-content: center; */
-padding-bottom: 10px;
+  padding-bottom: 10px;
 }
-
 
 .boards img {
   width: 100%;
   vertical-align: middle;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
 
+.work-experience li {
+  list-style: none;
+  line-height: 30px;
+  text-align: left;
+}
 
+#experience {
+  font-size: 20px;
+  text-align: left;
+}
+
+#languages {
+  text-align: left;
+  font-size: 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+}
+
+.profile-picture-img {
+  height: 50%;
+  width: 50%;
+}
+
+.wrapper-one {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.awards li {
+  list-style: none;
+  line-height: 30px;
+  text-align: left;
+}
 
 /* social media links */
 
