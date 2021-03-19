@@ -110,47 +110,61 @@ span {
   vertical-align: middle;
 }
 
+/* about */
+
+.about-section{
+  vertical-align: center;
+  text-align: left;
+}
+
+.about-header {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
 .wrapper {
-  display: flex;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-content: center;
+/* padding: 10px 70px; */
+
 }
 
 .work-experience li {
   list-style: none;
   line-height: 30px;
-  text-align: left;
 }
 
 #experience {
   font-size: 20px;
-  text-align: left;
 }
 
 #languages {
-  text-align: left;
   font-size: 20px;
+  margin-top: 80px;
 }
 
 .profile-picture {
   border-radius: 50%;
-  height: 50%;
-  width: 50%;
+  max-width: 350px;
 }
 
-.profile-picture-img {
-  height: 50%;
-  width: 50%;
+/* bottom half */
+
+#awards {
+  font-size: 20px;
 }
 
-.wrapper-one {
-  display: flex;
-  /* justify-content: center; */
+#clients {
+  font-size: 20px;
 }
 
-.awards li {
-  list-style: none;
-  line-height: 30px;
-  text-align: left;
+ .awardz span {
+  color: rgb(232, 126, 144);
+  font-size: 16px;;
 }
 
 /* social media links */
