@@ -12,20 +12,36 @@ body {
 }
 
 /* navbar */
-.navbar .main-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
+.nabaratron .main-title  {
   text-align: center;
   color: #fff;
 }
 
-.navbar .sub-title {
+.nabaratron .sub-title {
   margin-bottom: 40px;
   text-align: center;
   color: white;
 }
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav p:hover{
+
+font-size: 20px;
+cursor: pointer
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(232, 126, 144);
+}
+  .nav a:hover{
+    color: white
+  }
+
 
 /* main-container */
 .main-container {
@@ -144,7 +160,7 @@ align-content: center;
 
 #languages {
   font-size: 20px;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .profile-picture {
