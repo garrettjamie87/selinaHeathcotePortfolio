@@ -186,6 +186,14 @@ align-content: center;
 /* social media links */
 
 .social-media-buttons {
+  margin-top: 10px;
+  
+}
+
+.social-media-buttons a{
   margin-top: 100px;
   font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(232, 126, 144);
 }
